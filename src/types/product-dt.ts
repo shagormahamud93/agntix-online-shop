@@ -11,8 +11,8 @@ export interface ProductDataDT {
   parent: string;
   children: string;
   image: StaticImageData;
-  originalPrice: string;
-  price: string;
+  originalPrice: number;
+  price: number;
   discount: number;
   quantity: number;
   type: string;

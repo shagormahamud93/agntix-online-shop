@@ -1,7 +1,8 @@
+import CartMain from "@/pages/cart/CartMain";
 
 const page = () => {
     return (
-        <h1>Cart Main</h1>
+        <CartMain/>
     );
 };
 
