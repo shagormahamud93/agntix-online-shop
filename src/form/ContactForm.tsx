@@ -112,7 +112,7 @@ const ContactForm = () => {
         {/* Submit Button */}
         <div className="col-md-5">
           <div className="contact__btn-2">
-            <button type="submit" className="tp-btn">
+            <button type="submit" className="sk-btn">
               Send Message
             </button>
           </div>

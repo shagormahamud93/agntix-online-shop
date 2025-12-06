@@ -87,8 +87,8 @@ const ShopHeroBanner = () => {
                                         </span>
                                         <h3 className="slider__title-13">{item.title}</h3>
 
-                                        <div className="slider__btn-13 ">
-                                            <Link href="/shop" className="tp-btn-border">
+                                        <div className="slider__btn-13">
+                                            <Link href="/shop" className="sk-btn-border">
                                                 Shop Now
                                             </Link>
                                         </div>

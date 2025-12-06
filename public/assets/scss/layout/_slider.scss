@@ -1,4 +1,4 @@
-@use '../utils/' as *;
+@use '../utils' as *;
 
 /*----------------------------------------*/
 /*  06. SLIDER CSS START
@@ -2606,7 +2606,7 @@
         &-13{
             position: relative;
             z-index: 11;
-            & .tp-btn-border{
+            & .sk-btn-border{
                 color: var(--tp-common-black);
                 border: 1.5px solid var(--tp-common-black);
                 font-size: 14px;

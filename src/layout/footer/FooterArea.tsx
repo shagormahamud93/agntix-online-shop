@@ -1,4 +1,4 @@
-import payment from '../../../public/assets/img/footer/footer-payment.png';
+import payment from '../../../public/assets/img/payment/footer-payment.png';
 import CopyrightText from './subComponent/CopyrightText';
 import SingleWidget from './subComponent/SingleWidget';
 import Image from "next/image";
