@@ -1,7 +1,8 @@
+import WishlistMain from "@/pages/wishlist/WishlistMain";
 
 const page = () => {
     return (
-        <h1>Wishlist Main</h1>
+        <WishlistMain />
     );
 };
 
