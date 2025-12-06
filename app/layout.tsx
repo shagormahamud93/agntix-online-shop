@@ -1,12 +1,13 @@
+import { ToastContainer } from 'react-toastify';
 import type { Metadata } from "next";
-import { 
-  Inter, 
-  Oswald, 
-  Poppins, 
-  Rajdhani, 
-  Roboto, 
-  Space_Grotesk, 
-  Syne 
+import {
+  Inter,
+  Oswald,
+  Poppins,
+  Rajdhani,
+  Roboto,
+  Space_Grotesk,
+  Syne
 } from "next/font/google";
 import "./globals.scss";
 
@@ -74,6 +75,10 @@ export default function RootLayout({
     `}>
       <body className="antialiased">
         {children}
+        <ToastContainer
+          position="top-center"
+          toastClassName="toast-center"
+        />
       </body>
     </html>
   );
