@@ -1,3 +1,4 @@
+import ShopBreadcrumb from "@/src/components/breadcrumb/ShopBreadcrumb";
 import FooterArea from "@/src/layout/footer/FooterArea";
 import HeaderArea from "@/src/layout/header/HeaderArea";
 import Wrapper from "@/src/layout/Wrapper";
@@ -7,9 +8,8 @@ const ShopMain = () => {
     return (
         <Wrapper>
             <HeaderArea/>
-            {/* <ShopBreadcrumb /> */}
+            <ShopBreadcrumb />
             <ShopArea />
-            {/* <ShopCta /> */}
             <FooterArea />
         </Wrapper>
     );
