@@ -1,7 +1,8 @@
+import ShopMain from "@/pages/shop/ShopMain";
 
 const page = () => {
     return (
-        <h1>Shop Main</h1>
+        <ShopMain/>
     );
 };
 
